@@ -7,3 +7,6 @@
 3. Pertemuan4 Membuat View Navbar
 ![image](https://github.com/Khafid224/ci4app/assets/145306005/f9dc3d40-76a9-4876-89e1-80fc532f1a9e)
 ![image](https://github.com/Khafid224/ci4app/assets/145306005/17c29884-acfb-4b96-8b72-c61937ea7c90)
+
+4. Pertemuan5 Membuat Layout dengan file template
+![image](https://github.com/Khafid224/ci4app/assets/145306005/bc9466b5-6bad-406d-b287-bba33e8dec3f)
