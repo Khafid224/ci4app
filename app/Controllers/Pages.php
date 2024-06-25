@@ -9,7 +9,6 @@ class Pages extends BaseController
     {
         $data = [
             'title' => 'Home | ThreedyArtist',
-            'tes' => ['satu', 'dua', 'tiga']
         ];
         return view('pages/home', $data);
     }

@@ -10,19 +10,34 @@ class Anime extends BaseController
 
     public function __construct()
     {
-        $this->AnimeModel = new AnimeModel();
+        $this->animeModel = new animeModel();
     }
 
     public function index()
     {
-        $anime = $this->AnimeModel->findAll();
+        $anime = $this->animeModel->findAll();
 
         $data = [
             'title' => 'Daftar Anime',
-            'anime' => $anime
+            'anime' => $this->animeModel->getAnime()
         ];
 
 
         return view('anime/index', $data);
+    }
+
+    public function detail($slug)
+    {
+        $anime = $this->animeModel->getAnime($slug);
+        $data = [
+            'title' => 'Detail Anime',
+            'anime' => $this->animeModel->getAnime($slug)
+        ];
+
+        if (empty($data['anime'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Judul Anime ' . $slug . ' Tidak ditemukan.');
+        }
+
+        return view('anime/detail', $data);
     }
 };
