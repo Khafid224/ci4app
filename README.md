@@ -10,3 +10,6 @@
 
 4. Pertemuan5 Membuat Layout dengan file template
 ![image](https://github.com/Khafid224/ci4app/assets/145306005/bc9466b5-6bad-406d-b287-bba33e8dec3f)
+
+5. Pertemuan6 Membuat Model dalam CI
+![image](https://github.com/Khafid224/ci4app/assets/145306005/7fd4870c-80b7-49f7-b44d-b864e4bc97b4)
