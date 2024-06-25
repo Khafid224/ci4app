@@ -13,3 +13,6 @@
 
 5. Pertemuan6 Membuat Model dalam CI
 ![image](https://github.com/Khafid224/ci4app/assets/145306005/7fd4870c-80b7-49f7-b44d-b864e4bc97b4)
+
+6. Pertemuan7 Membuat Model Detail dalam CI
+![image](https://github.com/Khafid224/ci4app/assets/145306005/9b2ea510-1c9b-4a80-8ec4-c31cc6e0b7d2)
